@@ -1,0 +1,281 @@
+/* reset css */
+* {
+	box-sizing: border-box
+}
+body {
+	margin: 0;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #86878b
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600
+}
+.container {
+	max-width: 1140px;
+	margin: auto;
+	padding: 21px 20px 22px;
+}
+.container::after {
+	content: '';
+	display: block;
+	clear: both
+}
+/* header */
+#header {
+	background: #000
+}
+#header ul {
+	float: right
+}
+#header ul li {
+	float: left;
+	margin-left: 48px;
+	line-height: 27px
+}
+#header ul li a:hover {
+	color: #ff9b51
+}
+/* hero - section */
+#hero {
+	background: url('images/fundal-header.jpg') no-repeat center center;
+	background-size: cover
+}
+#hero .container {
+	padding: 110px 20px 139px
+}
+#hero-left, #hero-right {
+	float: left;
+	width: 50%
+}
+#hero-left h1 {
+	font-size: 36px;
+	font-family: 'Raleway';
+	font-weight: normal;
+	color: #fff
+}
+#hero-left h1::after {
+	content: '';
+	display: block;
+	width: 64px;
+	height: 2px;
+	background: #fff;
+	margin: 40px 0
+}
+#hero-left p {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Raleway';
+	width: 90%;
+	margin-bottom: 46px
+}
+#hero-left a {
+	padding: 14px 30px;
+	border: 2px solid #fff;
+	font-size: 15px;
+	margin-top: 30px
+}
+#hero-left a:hover {
+	color: #ff9b51;
+	border-color: #ff9b51
+}
+#hero-right form {
+	width: 63.1579%;
+	float: right;
+	background: #fff
+}
+#hero-right h2 {
+	font-size: 20px;
+	color: #333;
+	padding: 19px 0;
+	background: #f5f5f5;
+	text-align: center;
+	margin-top: 0
+}
+#hero-right h2 span {
+	color: #ff9b51;
+}
+#hero-right input {
+	width: 79%;
+	display: block;
+	margin: 48px auto 0;
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 10px 13px
+}
+#hero-right input:focus {
+	outline: none;
+	border-color: #333
+}
+#hero-right input[type="submit"] {
+	width: 100%;
+	background: #ff9b51;
+	color: #fff;
+	padding: 22px 0;
+	font-size: 15px;
+	font-weight: 600;
+	border: none
+}
+/* social - section */
+#social {
+	box-shadow: #b7b7b7 0 1px 2px;
+	
+}
+#social span {
+	font-size: 46px;
+	color: #ccc
+}
+#social-left {
+	width: 35%;
+	float: left;
+	height: 80px
+}
+#social-right {
+	width: 65%;
+	float: left;
+	display: flex;
+	justify-content: space-between
+}
+
+/*********main top**********/
+#main-top {
+	background: #f5f5f5;
+	padding: 147px 0 115px 0;
+		}
+#main-top .container {
+		position: relative;
+	}
+input {
+	display: none;
+	}
+input + label + div {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 212px;
+	width: calc(60% - 212px)
+	}
+input:checked + label + div {
+		display: block;
+		}
+label {
+	font-size: 20xp;
+	color: #fff;
+	width: 112px;
+	height: 112px;
+	background: #333;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	line-height: 112px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+	border-radius: 3px
+	}
+input:checked + label {
+	background: #ff8b38;
+	}
+#main-top h2 {
+	font-weight: 700; 
+	color: #333
+	}
+#main-top a {
+	display: block;
+	background: #ff8b38;
+	font-size: 20xp;
+	color: #fff;
+	width: 121px;
+	height: 46px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 46px}
+#tab{ width: 60%;
+float: left}
+#tab .container img {
+	float: right;
+	max-width: 40%
+	}
+	
+/*********main bottom**********/
+	
+#main-bottom {
+	background: #fff;
+	padding-top: 126px;
+	margin-bottom: 30px}
+#main-bottom .container > img {width: 40%;
+box-shadow: 0px 10px 15px #d0d0d0
+}
+#right {
+width: 50%;
+float: right;
+}
+#right img {
+float: left;
+margin: 0 30px 30px 0}
+#right h2::after {
+display: block;
+content: '';
+width: 64px;
+height: 2px;
+background: #ff8b38;
+margin-top: 29px
+}
+#right h2 {font-weight: 700;
+color: #000}
+
+/*********bottom**********/
+#bottom {
+	background: url('images/fundal-footer.jpg') no-repeat center center;
+	background-size: cover;
+	padding-top: 76px;
+	padding-bottom: 76px;
+	}
+#bottom h2 {
+	font-family: 'Raleway';
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;}
+#bottom h2::after {
+	display: block;
+	content: '';
+	width: 64px;
+	height: 2px;
+	background: #fff;
+	margin: 30px auto;
+	}
+#bottom p {
+	font-family: 'Raleway';
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center}
+#bottom a {
+	display: block;
+	width: 121px;
+	height: 46px;
+	margin: auto;
+	border: 2px solid #fff;
+	text-align: center;
+	line-height: 46px;
+	font-size: 15xp;
+	margin-top: 30px}
+	
+/*********footer**********/
+#footer {
+background: #000;
+display: flex;
+justify-content: center;
+}
+#footer span {
+font-size: 24px;
+color: #ccc;
+margin: 0 10px}
